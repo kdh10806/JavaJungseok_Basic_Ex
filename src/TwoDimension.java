@@ -28,7 +28,7 @@ public class TwoDimension {
 		//4. 2차원 배열에 옮겨담기
 		int index = 0; //arr1의 인덱스
 		for(int level = 0; level < arr2.length; level++) { //층수
-			for(int count = 0; count < arr2[0].length; count++) { //2차원배열인덱스
+			for(int count = 0; count < arr2[level].length; count++) { //2차원배열인덱스
 				arr2[level][count] = arr1[index];
 				index++;
 			}
