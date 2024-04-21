@@ -14,6 +14,7 @@ public class NumberList {
 		for(int i = 1; i <= 9; i++) {
 			System.out.printf("%2d %2d %2d %2d %2d %2d%n", i, i*2, i*2-1, ((i-1)/3)+1, ((i-1)%3)+1, 10-i);
 		}
+		
 	}
 
 }
